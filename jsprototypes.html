@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demoarea"></p>
+
+<script>
+function Person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+
+var myFather = new Person("Erick", "Otieno", 50, "normal");
+var myMother = new Person("Diana", "Atieno", 42, "normal");
+
+document.getElementById("demoarea").innerHTML =
+"Father: " + myFather.age + ". Mother: " + myMother.age; 
+</script>
+
+</body>
+</html>
